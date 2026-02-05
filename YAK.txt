@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int choice;
+
+    printf("====================================\n");
+    printf("          YEU ANH KHONG? 😳\n");
+    printf("====================================\n");
+
+    while (1) {
+        printf("\nChon di 😆:\n");
+        printf("1. CO ❤️\n");
+        printf("0. KHONG 😅\n");
+        printf("Nhap lua chon: ");
+        scanf("%d", &choice); 
+
+        if (choice == 1) {
+            printf("\nAnh biet ma 😎💖\n");
+            printf("Cam on em nha 😳\n");
+            printf("LOVE YOU ❤️❤️❤️\n");
+            break;
+        }
+        else if (choice == 0) {
+            printf("\nKhong duoc chon KHONG 😈\n");
+            printf("Thu lai di 😆\n");
+        }
+        else {
+            printf("\nNhap sai roi 😅\n");
+        }
+    }
+
+    printf("\nNhan Enter de thoat...");
+    getchar();
+    getchar();
+    return 0;
+}
+
+
+ 
